@@ -22,15 +22,4 @@ export default defineConfig({
       },
     }),
   ],
-  // esbuild: {
-  //   loader: "tsx",
-  // },
-  resolve: {
-    alias: {
-      "rc-field-form": path.resolve(
-        __dirname,
-        "../../packages/rc-field-form/src/index.tsx"
-      ),
-    },
-  },
 });
